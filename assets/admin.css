@@ -1,0 +1,127 @@
+/* Holiday Calendar - admin screen styles. */
+
+.hc-admin .hc-shortcode-hint {
+	font-size: 13px;
+}
+
+.hc-admin .hc-shortcode-hint code {
+	padding: 2px 6px;
+}
+
+.hc-admin .hc-grid {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 280px, 1fr ) );
+	gap: 16px;
+	margin-top: 16px;
+	max-width: 900px;
+}
+
+.hc-admin .hc-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 16px 18px;
+}
+
+.hc-admin .hc-card h2 {
+	margin-top: 0;
+	font-size: 14px;
+}
+
+.hc-admin .hc-card-wide {
+	margin-top: 16px;
+	max-width: 900px;
+}
+
+.hc-admin fieldset {
+	margin: 8px 0 4px;
+}
+
+.hc-admin fieldset legend {
+	margin-bottom: 6px;
+}
+
+.hc-admin .hc-inline {
+	display: inline-block;
+	margin: 0 12px 6px 0;
+	white-space: nowrap;
+}
+
+.hc-admin .hc-swatch {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 3px;
+	vertical-align: middle;
+	border: 1px solid rgba( 0, 0, 0, .12 );
+}
+
+.hc-admin .button-link-delete {
+	color: #b32d2e;
+}
+
+.hc-admin .hc-row-actions {
+	white-space: nowrap;
+}
+
+.hc-admin .hc-inline-form {
+	display: inline;
+}
+
+.hc-admin .hc-action-sep {
+	color: #c3c4c7;
+	margin: 0 4px;
+}
+
+.hc-admin .hc-form-actions .button {
+	margin-right: 6px;
+}
+
+.hc-admin .hc-color-field {
+	margin: 8px 0 4px;
+	border: none;
+	padding: 0;
+}
+
+.hc-admin .hc-color-field legend {
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+.hc-admin .hc-color-option {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0 0 8px;
+	cursor: pointer;
+}
+
+.hc-admin .hc-color-option .hc-swatch {
+	width: 16px;
+	height: 16px;
+}
+
+.hc-admin .hc-color-custom {
+	margin: 4px 0 0 24px;
+}
+
+.hc-admin .hc-color-custom input[type="color"] {
+	width: 48px;
+	height: 32px;
+	padding: 0;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.hc-admin .hc-date-type-field {
+	margin: 0 0 8px;
+	border: none;
+	padding: 0;
+}
+
+.hc-admin .hc-date-type-field legend {
+	margin-bottom: 6px;
+	font-weight: 600;
+}

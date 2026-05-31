@@ -1,0 +1,22 @@
+{
+	"name": "holiday-calendar/plugin",
+	"description": "Holiday Calendar WordPress plugin",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "WisdomMF",
+			"homepage": "https://github.com/WisdomMf"
+		}
+	],
+	"require": {
+		"stripe/stripe-php": "^16.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.6",
+		"yoast/phpunit-polyfills": "^2.0"
+	},
+	"scripts": {
+		"test": "phpunit"
+	}
+}

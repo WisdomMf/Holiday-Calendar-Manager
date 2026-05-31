@@ -1,0 +1,20 @@
+/* Payment Form — admin screen styles. */
+
+.hc-payment-admin .hc-shortcode-hint {
+	font-size: 13px;
+}
+
+.hc-payment-admin .hc-shortcode-hint code {
+	padding: 2px 6px;
+}
+
+.hc-payment-admin .hc-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+}
+
+.hc-payment-admin .hc-card h2 {
+	margin-top: 0;
+	font-size: 14px;
+}
